@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" alt="favicon" href="logo.png">
+    <link rel="canonical" href="https://ydcjeff.github.io/clifold">
+    <meta name="theme-color" content="#292D3E">
+    <meta name="description" content="Clifold - A CLI tool for scaffolding any Python Projects">
+    <title>Clifold.py</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145827815-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145827815-4');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            margin: 3em;
+            padding: 5vh 5vw;
+            background-color: #fff;
+            color: #FADA5E;
+            background-color: #292D3E;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        p {
+            margin: 3em;
+            font-size: 1.5em;
+            display: block;
+            position: relative;
+        }
+
+        a {
+            color: #5acfc9;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        p.terminal,
+        p.scaffold {
+            font-weight: bolder;
+            color: #5acfc9;
+            font-size: 2em;
+        }
+
+        #clifold {
+            color: #5acfc9;
+            font-weight: 300;
+            font-size: 2.5em;
+        }
+
+        div {
+            text-align: inherit;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            font-size: 1.25em;
+        }
+
+        div#usage {
+            text-align: left;
+        }
+
+        li {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .clifold {
+            font-size: 5em;
+            font-family: "Dosis", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #5acfc9;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="one">
+        Are you still manually creating directories to make python projects?
+    </p>
+    <p id="two">
+        Can't you still decide how to structure your python project?
+    </p>
+    <p id="three">
+        Are you copying the content of setup.py and .gitignore from
+        <a href="https://docs.python.org">Python Docs</a> and from 
+        <a href="https://github.com">GitHub</a> till now?
+    </p>
+    <p id="four">
+        Do you want to get rid of those time consuming configurations?
+    </p>
+    <p id="five">
+        What if you can make all those configurations with just one line of command?
+    </p>
+    <p id="six">
+        Leaving you nowhere to go...
+    </p>
+    <p id="seven">
+        <p class="terminal">
+            Just from your favourite terminal
+        </p>
+        <p>
+            AND
+        </p>
+        <p class="scaffold">
+            all scaffolded...
+        </p>
+    </p>
+    <p id="eight">
+        <h1>Introducing...</h1>
+    </p>
+    <img src="logo.svg" alt="Clifold logo" />
+    <h1 class="clifold">Clifold.py</h1>
+    <p id="nine">
+        <div id="clifold">
+            A CLI tool for scaffolding any Python Projects
+        </div>
+        <div id="usage">
+            <span>It uses</span>
+            <li>venv to create virtual environments.</li>
+            <li>git to initialize git in project directory.</li>
+            <li>pip3 to install the packages you input.</li>
+            <li>requests to fetch .gitignore & setup.py.</li>
+        </div>
+    </p>
+</body>
+
+</html>

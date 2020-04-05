@@ -1,0 +1,6 @@
+flake8
+autopep8
+pytest
+twine
+requests
+wheel
