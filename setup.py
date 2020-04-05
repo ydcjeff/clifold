@@ -28,7 +28,7 @@ setup(
     description="🚀 A CLI tool for scaffolding any Python Projects 🚀",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    keywords="scaffold python project",
+    keywords="scaffold python project cli",
     license="MIT",
     url="https://github.com/ydcjeff/clifold",
     packages=find_packages(),
