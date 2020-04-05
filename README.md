@@ -1,10 +1,13 @@
 <p align="center"><a href="https://ydcjeff.github.io/clifold" target="_blank" rel="noopener noreferrer"><img width="100" src="https://ydcjeff.github.io/clifold/logo.png" alt="Clifold logo"></a></p>
 
+<h2 align="center">Clifold</h2>
+
 <p align="center">
-  <a href="https://circleci.com/gh/ydcjeff/clifold"><img src="https://circleci.com/gh/ydcjeff/clifold.svg?style=shield"></a>
+  <a href="https://circleci.com/gh/ydcjeff/clifold"><img src="https://circleci.com/gh/ydcjeff/clifold.svg?style=svg"></a>
+  <a href="https://github.com/ydcjeff/clifold/actions"><img src="https://github.com/ydcjeff/clifold/workflows/Python%20package/badge.svg?branch=master"></a>
+  <a href="https://travis-ci.com/github/ydcjeff/clifold"><img src="https://travis-ci.com/ydcjeff/clifold.svg?branch=master"></a>
 </p>
 
-<h2 align="center">Clifold</h2>
 
 Clifold is a command line tool that can quickly scaffold the python projects.
 
