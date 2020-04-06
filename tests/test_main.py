@@ -70,7 +70,7 @@ def test_torch():
     assert output10 == True
     assert output11 == True
     assert output12 == True
-    assert output13 == True
-    assert output14 == True
-    assert output15 == True
-    assert output16 == True
+    assert output13 == False
+    assert output14 == False
+    assert output15 == False
+    assert output16 == False
