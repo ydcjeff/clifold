@@ -73,11 +73,11 @@ Argument:
   project_name    Project name to create with venv
 
 Options:
-  -g, --git       Make git initialization
+  -g, --git       Make git initialization (Default: True)
   -ng, --no-git   Skip git initialization
-  -p, --pkg       Ask packages to install
+  -p, --pkg       Ask packages to install (Default: True)
   -np, --no-pkg   Skip packages installation
-  -i, --init      Create setup.py file
+  -i, --init      Create setup.py file (Default: True)
   -ni, --no-init  Skip setup.py file
   -V, --version   Output version number
   -h, --help      Output usage information

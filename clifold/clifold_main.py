@@ -9,7 +9,7 @@ from clifold.commands.clifold_project import create
 
 def __version__():
     """return package version"""
-    return "0.2.9"
+    return "0.2.10"
 
 
 def cli():
