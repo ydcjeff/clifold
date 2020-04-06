@@ -9,7 +9,7 @@ from clifold.commands.clifold_project import create
 
 def __version__():
     """return package version"""
-    return "0.2.8"
+    return "0.2.9"
 
 
 def cli():
@@ -25,17 +25,17 @@ def cli():
 
     group = parser.add_argument_group('Options')
     group.add_argument('-g', '--git', action='store_true', default=True,
-                       dest='git', help='Make git initialization')
+                       dest='git', help='Make git initialization (Default: True)')
     group.add_argument('-ng', '--no-git', action='store_false',
                        dest='git', help='Skip git initialization')
 
     group.add_argument('-p', '--pkg', action='store_true', default=True,
-                       dest='pkg', help='Ask packages to install')
+                       dest='pkg', help='Ask packages to install (Default: True)')
     group.add_argument('-np', '--no-pkg', action='store_false', dest='pkg',
                        help='Skip packages installation')
 
     group.add_argument('-i', '--init', action='store_true', default=True,
-                       dest='init', help='Create setup.py file')
+                       dest='init', help='Create setup.py file (Default: True)')
     group.add_argument('-ni', '--no-init', action='store_false',
                        dest='init', help='Skip setup.py file')
 

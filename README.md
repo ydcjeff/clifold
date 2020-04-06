@@ -83,6 +83,8 @@ Options:
   -h, --help      Output usage information
 ```
 
+[![asciicast](https://asciinema.org/a/317100.svg)](https://asciinema.org/a/317100)
+
 ## LICENSE
 
 [MIT](https://opensource.org/licenses/MIT)

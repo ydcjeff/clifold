@@ -98,6 +98,11 @@ def test_arbitary_commands():
     assert arbitary_status == 512
 
 
+def test_proj_only():
+    output = os.system('clif torch')
+    assert output == 256
+
+
 def test_cli():
     with pytest.raises(SystemExit):
         clifold_main.cli()

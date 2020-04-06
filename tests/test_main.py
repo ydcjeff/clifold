@@ -37,3 +37,40 @@ def test_check():
     assert output14 == True
     assert output15 == True
     assert output16 == True
+
+
+def test_torch():
+    os.system("cd ..")
+    output1 = os.path.exists("torch-venv")
+    output2 = os.path.exists("torch-venv/bin")
+    output3 = os.path.exists("torch-venv/include")
+    output4 = os.path.exists("torch-venv/lib")
+    output5 = os.path.exists("torch-venv/pyvenv.cfg")
+    output6 = os.path.exists("torch-venv/torch")
+    output7 = os.path.exists("torch-venv/torch/torch")
+    output8 = os.path.exists("torch-venv/torch/torch/__init__.py")
+    output9 = os.path.exists("torch-venv/torch/torch/main.py")
+    output10 = os.path.exists("torch-venv/torch/tests")
+    output11 = os.path.exists("torch-venv/torch/tests/__init__.py")
+    output12 = os.path.exists("torch-venv/torch/tests/test_main.py")
+    output13 = os.path.exists("torch-venv/torch/.gitignore")
+    output14 = os.path.exists("torch-venv/torch/MANIFEST.in")
+    output15 = os.path.exists("torch-venv/torch/README.md")
+    output16 = os.path.exists("torch-venv/torch/setup.py")
+
+    assert output1 == True
+    assert output2 == True
+    assert output3 == True
+    assert output4 == True
+    assert output5 == True
+    assert output6 == True
+    assert output7 == True
+    assert output8 == True
+    assert output9 == True
+    assert output10 == True
+    assert output11 == True
+    assert output12 == True
+    assert output13 == True
+    assert output14 == True
+    assert output15 == True
+    assert output16 == True
